@@ -1,9 +1,6 @@
 packages:
   - '.'
 
-overrides:
-  tsx: 4.21.0
-
 allowBuilds:
   esbuild: true
   sharp: true
