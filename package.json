@@ -2,10 +2,11 @@
   "name": "humic-bilingual-site",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "payload migrate && next start",
     "payload": "payload",
     "generate:importmap": "payload generate:importmap"
   },
@@ -24,4 +25,5 @@
     "@types/react-dom": "^19.0.0",
     "typescript": "^5.7.0"
   }
+  
 }

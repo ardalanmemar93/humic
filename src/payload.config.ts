@@ -3,12 +3,12 @@ import { fileURLToPath } from 'url'
 import { buildConfig } from 'payload'
 import { sqliteAdapter } from '@payloadcms/db-sqlite'
 import { lexicalEditor } from '@payloadcms/richtext-lexical'
-import { Users } from './cms/collections/Users'
-import { Media } from './cms/collections/Media'
-import { OrderRequests } from './cms/collections/OrderRequests'
-import { Homepage } from './cms/globals/Homepage'
-import { SiteSettings } from './cms/globals/SiteSettings'
-import { OrderPage } from './cms/globals/OrderPage'
+import { Users } from './cms/collections/Users.ts'
+import { Media } from './cms/collections/Media.ts'
+import { OrderRequests } from './cms/collections/OrderRequests.ts'
+import { Homepage } from './cms/globals/Homepage.ts'
+import { SiteSettings } from './cms/globals/SiteSettings.ts'
+import { OrderPage } from './cms/globals/OrderPage.ts'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
