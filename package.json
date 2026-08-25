@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@10.34.5",
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,11 +15,11 @@
     "generate:importmap": "payload generate:importmap"
   },
   "dependencies": {
-    "@payloadcms/db-sqlite": "latest",
-    "@payloadcms/next": "latest",
-    "@payloadcms/richtext-lexical": "latest",
+    "@payloadcms/db-sqlite": "3.88.0",
+    "@payloadcms/next": "3.88.0",
+    "@payloadcms/richtext-lexical": "3.88.0",
     "next": "15.4.11",
-    "payload": "latest",
+    "payload": "3.88.0",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
@@ -25,5 +29,4 @@
     "@types/react-dom": "^19.0.0",
     "typescript": "^5.7.0"
   }
-  
 }
