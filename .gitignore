@@ -1,0 +1,7 @@
+node_modules
+.next
+.env
+humic.db
+payload.db
+*.log
+src/app/(payload)/admin/importMap.js
